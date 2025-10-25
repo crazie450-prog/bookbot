@@ -10,7 +10,6 @@ def get_num_words(text):
 def get_char_count(text):
     char_count = {}
     all_lower = text.lower()
-
     for char in all_lower:
         if char in char_count:
             char_count[char] += 1
