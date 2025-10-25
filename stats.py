@@ -1,4 +1,3 @@
-frankenstein_filepath = "books/frankenstein.txt"
 
 def sort_on_num(item):
     return item["num"]
@@ -16,7 +15,7 @@ def get_char_count(text):
         else:
             char_count[char] = 1
     return char_count  
-
+    return char_count
 def sort_char_count(char_count):
     list_dict_char_count = []
     
