@@ -15,7 +15,7 @@ def get_char_count(text):
         else:
             char_count[char] = 1
     return char_count  
-    return char_count
+
 def sort_char_count(char_count):
     list_dict_char_count = []
     
@@ -24,6 +24,4 @@ def sort_char_count(char_count):
     
     list_dict_char_count.sort(key=sort_on_num,  reverse=True)
     
-    return list_dict_char_count
- 
-    
+    return list_dict_char_count   
